@@ -13,7 +13,7 @@ const sliderContent = {
   coding and shell scripting, server management and hardware troubleshooting. In possession of exceptional attention to detail, the
   ability to think critically, residence, an insatiable thirst for knowledge, and an infectiously positive attitude. On the path to becoming
   certified AWS Certified Developer - Associate. I am looking for Junior roles in DevOps Engineering and Cloud Engineering for further
-  development in my IT career.`,
+  development in my IT career..`,
 	btnText: " Donwload CV",
 };
 
