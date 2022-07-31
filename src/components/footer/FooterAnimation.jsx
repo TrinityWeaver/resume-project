@@ -9,9 +9,9 @@ import {
 
 const SocialShare = [
   { Social: <FaFacebookF />, link: "https://www.facebook.com/" },
-  { Social: <FaTwitter />, link: "https://www.linkedin.com/" },
+  { Social: <FaTwitter />, link: "https://twitter.com/" },
   { Social: <FaInstagram />, link: "https://www.instagram.com/" },
-  { Social: <FaLinkedinIn />, link: "https://twitter.com/" },
+  { Social: <FaLinkedinIn />, link: "https://www.linkedin.com/in/sebastian-marynicz-88b390105/" },
   { Social: <FaPinterestP />, link: "https://www.pinterest.com/" },
 ];
 
@@ -35,11 +35,11 @@ const Footer = () => {
           <p>
             © {new Date().getFullYear()} copyright{" "}
             <a
-              href="https://themeforest.net/user/ib-themes/portfolio"
+              href="mailto:sebastian.marynicz@gmail.com"
               target="_blank"
               rel="noreferrer"
             >
-              ib-themes
+              Sebastian Marynicz
             </a>{" "}
             all right reserved
           </p>
