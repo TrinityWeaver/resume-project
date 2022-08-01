@@ -2,8 +2,8 @@ import React from "react";
 import TextLoop from "react-text-loop";
 
 const conctInfo = {
-	phone: "+04 6545-9535-6515",
-	email: " nairobi-designer@sebastian.com",
+	phone: "+44 793-665-7257",
+	email: " sebastian.marynicz@gmail.com",
 };
 
 const sliderContent = {
@@ -33,9 +33,6 @@ const Slider = () => {
 						<ul className="nav">
 							<li className="active">
 								<a href="#">EN</a>
-							</li>
-							<li>
-								<a href="#">FR</a>
 							</li>
 						</ul>
 					</div>

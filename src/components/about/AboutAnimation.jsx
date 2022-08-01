@@ -27,7 +27,7 @@ const About = () => {
 								</div>
 								{/* End img */}
 								<div className="info">
-									<p>Ux/Ui Designer</p>
+									<p>Cloud Engineer</p>
 									<h3>Sebastian Marynicz</h3>
 								</div>
 								{/* End info */}
@@ -67,19 +67,19 @@ const About = () => {
 											<ul>
 												<li>
 													<label>Name: </label>
-													<span>Nairobi Gadot</span>
+													<span>Sebastian Marynicz</span>
 												</li>
 												<li>
 													<label>Birthday: </label>
-													<span>4th April 1994</span>
+													<span>3rd March 1985</span>
 												</li>
 												<li>
 													<label>Age: </label>
-													<span>26 years</span>
+													<span>37 years</span>
 												</li>
 												<li>
 													<label>Address: </label>
-													<span>San Francisco</span>
+													<span>London</span>
 												</li>
 											</ul>
 										</div>
@@ -87,15 +87,15 @@ const About = () => {
 											<ul>
 												<li>
 													<label>Phone: </label>
-													<span>(+38) 469 2344 2364</span>
+													<span>(+44) 79366 57257</span>
 												</li>
 												<li>
 													<label>Email: </label>
-													<span>info@domainname.com</span>
+													<span>sebastian.marynicz@gmail.com</span>
 												</li>
 												<li>
-													<label>Skype: </label>
-													<span>nairob.40</span>
+													<label>Discord: </label>
+													<span>Trinity Weaver#3077</span>
 												</li>
 												<li>
 													<label>Freelance: </label>
