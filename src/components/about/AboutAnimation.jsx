@@ -91,7 +91,7 @@ const About = () => {
 												</li>
 												<li>
 													<label>Email: </label>
-													<span>sebastian.marynicz@gmail.com</span>
+													<span>contact@sebastianmarynicz.co.uk</span>
 												</li>
 												<li>
 													<label>Discord: </label>
