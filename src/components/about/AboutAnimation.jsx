@@ -71,7 +71,7 @@ const About = () => {
 												</li>
 												<li>
 													<label>Birthday: </label>
-													<span>3rd March 1985</span>
+													<span>5th March 1985</span>
 												</li>
 												<li>
 													<label>Age: </label>
