@@ -44,7 +44,7 @@ const Footer = () => {
 					<p>
 						© {new Date().getFullYear()} copyright{" "}
 						<a
-							href="mailto:sebastian.marynicz@gmail.com"
+							href="mailto:contact@sebastianmarynicz.co.uk"
 							target="_blank"
 							rel="noreferrer"
 						>
