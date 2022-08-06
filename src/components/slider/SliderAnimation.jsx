@@ -9,11 +9,18 @@ const conctInfo = {
 const sliderContent = {
 	name: "Sebastian Marynicz",
 	designation: "Cloud / DevOps Engineer",
-	description: `Results-driven and collaborative IT Operations engineer offering 3+ years of experience in building automated solutions, python
-  coding and shell scripting, server management and hardware troubleshooting. In possession of exceptional attention to detail, the
-  ability to think critically, residence, an insatiable thirst for knowledge, and an infectiously positive attitude. On the path to becoming
-  certified AWS Certified Developer - Associate. I am looking for Junior roles in DevOps Engineering and Cloud Engineering for further
-  development in my IT career..`,
+	description: `Certified AWS Certified Developer, Results-driven and collaborative 
+	Cloud engineer offering 1+ years of experience building 
+	automated AWS solutions, building and managing CI/CD 
+	pipeline solutions, python coding, shell scripting, 
+	server management, and Jenkins management. 
+	In possession of exceptional attention to detail, 
+	the ability to think critically, residence, an 
+	insatiable thirst for knowledge, and an infectiously 
+	positive attitude. I am looking for Junior roles and 
+	an opportunity for Freelance Jobs in DevOps Engineering 
+	and Cloud Engineering for further development in my 
+	IT career.`,
 	btnText: " Donwload CV",
 };
 
