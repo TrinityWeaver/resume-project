@@ -45,19 +45,19 @@ const resumeContent = [
 
 const educatonContent = [
   {
-    passingYear: "2018-2020",
-    degreeTitle: "Ph.D in Horriblensess",
-    instituteName: "University Of Evil Doing",
+    passingYear: "May 2022",
+    degreeTitle: "AWS Certified Developer - Associate",
+    instituteName: "Amazon Web Services Training and Certification",
   },
   {
-    passingYear: "2013-2016",
-    degreeTitle: "Bsc. in Computer Science",
-    instituteName: "World University",
+    passingYear: "May 2021",
+    degreeTitle: "Jamf Certified Expert",
+    instituteName: "Granted by Jamf",
   },
   {
-    passingYear: "2010-2012",
-    degreeTitle: "Graphic Artist Training ",
-    instituteName: "Graphic Master Institute",
+    passingYear: "December 2020",
+    degreeTitle: "PCEP - Certified Entry-Level Python Programmer",
+    instituteName: "OpenEDG Institute",
   },
 ];
 
@@ -111,7 +111,7 @@ const Resume = () => {
           {/* End separated */}
 
           <div className="title">
-            <h3>Education & Skills</h3>{" "}
+            <h3>Certifications & Skills</h3>{" "}
           </div>
 
           <div className="row align-items-center">

@@ -22,7 +22,7 @@ const skillContent = [
 		endCount: "90",
 	},
 	{
-		name: "Bash Script",
+		name: "Terraform",
 		numberPercent: "88",
 		startCount: "0",
 		endCount: "88",

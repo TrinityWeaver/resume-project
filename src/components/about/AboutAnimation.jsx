@@ -49,16 +49,23 @@ const About = () => {
 
 								<div className="about-text">
 									<p>
-										I'm a Freelancer Front-end Developer with over 3 years of
-										experience. I'm from San Francisco. I code and create web
-										elements for amazing people around the world. I like work
-										with new people. New people new Experiences.
+									I have been starting my development towards Cloud 
+									Engineer from the IT Operations Engineer role 
+									with over 2+ years of experience with AWS. I am 
+									from London, UK. I code in Python and React JS 
+									and build amazing automation involving cloud, and 
+									Jenkins, making all processes a hand-free experience, 
+									removing possibilities of human errors.
 									</p>
 									<p>
-										I'm a Freelancer Front-end Developer with over 3 years of
-										experience. I'm from San Francisco. I code and create web
-										elements for amazing people around the world. I like work
-										with new people. New people new Experiences.
+									I also enable Continuous integration, 
+									delivery and deployment (CI/CD) allow 
+									release more frequently without 
+									compromising quality. With CI/CD, code 
+									changes are shepherded through an 
+									automated pipeline that handles the 
+									repetitive build, test and deployment 
+									tasks and alerts you about any issues.
 									</p>
 								</div>
 								<div className="info-list">
