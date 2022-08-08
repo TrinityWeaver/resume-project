@@ -3,11 +3,11 @@ import Skills from "../skills/Skills";
 
 const resumeContent = [
   {
-    jobPosition: `Sr. Front-end Engineer`,
-    jobType: `Google | Remote`,
-    jobDuration: `Feb 2021 - Present`,
+    jobPosition: `Junior Cloud Engineer`,
+    jobType: `ZAVA | Remote`,
+    jobDuration: `Aug 2021 - Present`,
     timeDuraton: `Full Time`,
-    compnayName: "Google LLC",
+    compnayName: "ZAVA",
     jobDescription: `Adipisicing Lorem ipsum dolor sit amet, consectetur elit,
     sed do eiusmod tempor incididunt ut labore et dolore magna
     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -16,16 +16,18 @@ const resumeContent = [
     delayAnimation: "",
   },
   {
-    jobPosition: `Visual Designer`,
-    jobType: `Ridian | Remote`,
-    jobDuration: `Mar 2020 - Present`,
-    timeDuraton: `Part Time`,
-    compnayName: "Ridian IT",
-    jobDescription: `Ut enim ad minim veniam, quis nostrud exercitation ullamco
-    laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-    irure dolor. Lorem ipsum dolor sit amet, consectetur
-    adipisicing elit, sed do eiusmod tempor incididunt ut
-    labore et dolore magna aliqua.`,
+    jobPosition: `IT Operations Engineer`,
+    jobType: `ZAVA | Remote`,
+    jobDuration: `Aug 2019 - Jul 2021`,
+    timeDuraton: `Full Time`,
+    compnayName: "ZAVA",
+    jobDescription: `Cyber Essentials Plus Company-wide certification gained.
+    Creating and implementing various solutions for business logic via Jamf Pro
+    Network Debugging
+    3rd Line Tech Support across the whole organisation, including maintaining networking hardware\n
+    and software, and performing other technical support duties.
+    ntegration OneLogin as a solution for identity and access management and SSO widely in organisation
+    Administering a bunch of services, such as Google Workspace, Microsoft, OneLogin, DUO, Amazon Connect.`,
     delayAnimation: "100",
   },
   {
