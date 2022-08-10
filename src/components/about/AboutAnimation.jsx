@@ -49,23 +49,27 @@ const About = () => {
 
 								<div className="about-text">
 									<p>
-									I have been starting my development towards Cloud 
-									Engineer from the IT Operations Engineer role 
-									with over 2+ years of experience with AWS. I am 
-									from London, UK. I code in Python and React JS 
-									and build amazing automation involving cloud, and 
-									Jenkins, making all processes a hand-free experience, 
-									removing possibilities of human errors.
+										In my current role, I was exposed to many Programing
+										Languages, like Python, and React JS, bash scripting. I am
+										passionate about new technologies, like Linux Systems,
+										Cloud, and AWS. I am always keen to learn new technologies
+										and skills. As proof of my knowledge, I recently obtained
+										AWS Developer Associate Certification, which involved a wide
+										range of skills related to AWS Cloud, to achieve
+										certification.
 									</p>
 									<p>
-									I also enable Continuous integration, 
-									delivery and deployment (CI/CD) allow 
-									release more frequently without 
-									compromising quality. With CI/CD, code 
-									changes are shepherded through an 
-									automated pipeline that handles the 
-									repetitive build, test and deployment 
-									tasks and alerts you about any issues.
+										I have built fantastic automations and provided solutions
+										involving cloud, Jenkins, various programming languages etc.
+										I was making all processes a hand-free experience and
+										removing possibilities of human errors making these
+										solutions cost-effective. In my current role, I did enable
+										for one of the teams a CI/CD Pipeline by building Super
+										Available Jenkins Pipeline with persistent memory in AWS. In
+										this solution, I implemented a Jenkins Master as an
+										auto-healing and cost-effective part of your continuous
+										integration and deployment system. This is just one example
+										of my projects.
 									</p>
 								</div>
 								<div className="info-list">
