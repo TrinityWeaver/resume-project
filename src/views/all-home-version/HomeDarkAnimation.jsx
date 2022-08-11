@@ -10,93 +10,125 @@ import ContactInfo from "../../components/contact/ContactInfo";
 import Map from "../../components/contact/Map";
 import Footer from "../../components/footer/FooterAnimation";
 import useDocumentTitle from "../../components/useDocumentTitle";
+import CookieConsent from "react-cookie-consent";
+import Cookies from "js-cookie";
 
 const HomeOne = () => {
-  useDocumentTitle(
-    "Sebastian's Resume"
-  );
-  return (
-    <div className="main-left theme-dark">
-      <Header />
-      {/* End Header Section */}
+	useDocumentTitle("Sebastian's Resume");
 
-      <Slider />
-      {/* End Slider Section */}
+	if (Cookies.get("ConsentCookieSebastian") === undefined) {
+		console.log("Cookie not set");
+	} else {
+		console.log("Cookie set");
+	}
 
-      <About />
-      {/* End About Section */}
+	return (
+		<div className="main-left theme-dark">
+			<Header />
+			{/* End Header Section */}
 
-      <Resume />
-      {/* End Resume Section */}
+			<Slider />
+			{/* End Slider Section */}
 
-      <section id="work" className="section theme-light dark-bg">
-        <div className="container">
-          <div className="title">
-            <h3>My Portfolio.</h3>
-          </div>
-          <Portfolio />
-        </div>
-      </section>
-      {/* End Portfolio Section */}
+			<About />
+			{/* End About Section */}
 
-      <section id="blog" className="section">
-        <div className="container">
-          <div className="title">
-            <h3>Latest Blog.</h3>
-          </div>
-          <Blog />
-        </div>
-      </section>
-      {/* End Portfolio Section */}
+			<Resume />
+			{/* End Resume Section */}
 
-      <section id="contactus" className="section theme-light dark-bg">
-        <div className="container">
-          <div className="row">
-            <div
-              className="col-lg-5 col-xl-4 m-15px-tb"
-              data-aos="fade-right"
-              data-aos-duration="1200"
-            >
-              <ContactInfo />
-            </div>
-            {/* End Contact info */}
+			<section id="work" className="section theme-light dark-bg">
+				<div className="container">
+					<div className="title">
+						<h3>My Portfolio.</h3>
+					</div>
+					<Portfolio />
+				</div>
+			</section>
+			{/* End Portfolio Section */}
 
-            <div
-              className="col-lg-7 ml-auto m-15px-tb"
-              data-aos="fade-right"
-              data-aos-duration="1200"
-              data-aos-delay="200"
-            >
-              <div className="contact-form">
-                <h4>Say Something</h4>
-                <Contact />
-              </div>
-            </div>
-            {/* End contact form */}
+			<section id="blog" className="section">
+				<div className="container">
+					<div className="title">
+						<h3>Latest Blog.</h3>
+					</div>
+					<Blog />
+				</div>
+			</section>
+			{/* End Portfolio Section */}
 
-            <div
-              className="col-12"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-              data-aos-delay="300"
-            >
-              <Map />
-              {/* End google-map */}
-            </div>
-            {/* End Col */}
-          </div>
-        </div>
-      </section>
-      {/* End Contact Section */}
+			<section id="contactus" className="section theme-light dark-bg">
+				<div className="container">
+					<div className="row">
+						<div
+							className="col-lg-5 col-xl-4 m-15px-tb"
+							data-aos="fade-right"
+							data-aos-duration="1200"
+						>
+							<ContactInfo />
+						</div>
+						{/* End Contact info */}
 
-      <footer className="footer white">
-        <div className="container">
-          <Footer />
-        </div>
-      </footer>
-      {/* End Contact Section */}
-    </div>
-  );
+						<div
+							className="col-lg-7 ml-auto m-15px-tb"
+							data-aos="fade-right"
+							data-aos-duration="1200"
+							data-aos-delay="200"
+						>
+							<div className="contact-form">
+								<h4>Say Something</h4>
+								<Contact />
+							</div>
+						</div>
+						{/* End contact form */}
+
+						<div
+							className="col-12"
+							data-aos="fade-up"
+							data-aos-duration="1200"
+							data-aos-delay="300"
+						>
+							<Map />
+							{/* End google-map */}
+						</div>
+						{/* End Col */}
+					</div>
+				</div>
+			</section>
+			{/* End Contact Section */}
+
+			<footer className="footer white">
+				<div className="container">
+					<Footer />
+				</div>
+			</footer>
+			{/* End Contact Section */}
+			<CookieConsent
+				location="bottom"
+				buttonText="Accept All"
+				cookieName="ConsentCookieSebastian"
+				enableDeclineButton={true}
+				style={{ background: "#2B373B" }}
+				buttonStyle={{
+					background: "#ff9301",
+					color: "#ffffff",
+					fontSize: "13px",
+				}}
+				declineButtonStyle={{
+					background: "#ff9301",
+					color: "#ffffff",
+					fontSize: "13px",
+				}}
+				expires={150}
+			>
+				<b>We value your privacy</b>
+				<p>
+					We use cookies to enhance your browsing experience, serve personalized
+					ads or content, and analyze our traffic. By clicking "Accept All", you
+					consent to our use of cookies.{" "}
+				</p>
+			</CookieConsent>
+		</div>
+	);
 };
 
 export default HomeOne;
