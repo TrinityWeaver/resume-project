@@ -24,6 +24,10 @@ const sliderContent = {
 	btnText: " Donwload CV",
 };
 
+const HandleResumeDownload = () => {
+	console.log("Clicked");
+};
+
 const Slider = () => {
 	return (
 		<>
@@ -93,6 +97,7 @@ const Slider = () => {
 										className="px-btn px-btn-white"
 										href="img/resume.png"
 										download
+										onClick={HandleResumeDownload}
 									>
 										{sliderContent.btnText}
 									</a>

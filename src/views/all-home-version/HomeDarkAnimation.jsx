@@ -12,15 +12,32 @@ import Footer from "../../components/footer/FooterAnimation";
 import useDocumentTitle from "../../components/useDocumentTitle";
 import CookieConsent from "react-cookie-consent";
 import Cookies from "js-cookie";
+import ReactGA from "react-ga4";
+import { useState, useEffect } from "react";
 
 const HomeOne = () => {
 	useDocumentTitle("Sebastian's Resume");
+	const [cookieConsent, setCookieConsent] = useState(false);
 
-	if (Cookies.get("ConsentCookieSebastian") === undefined) {
-		console.log("Cookie not set");
-	} else {
-		console.log("Cookie set");
-	}
+	useEffect(() => {
+		if (
+			Cookies.get("ConsentCookieResumeProject") !== undefined ||
+			cookieConsent === true
+		) {
+			setCookieConsent(true);
+			ReactGA.initialize("G-K00B3WGTR2");
+			ReactGA.send("pageview");
+			console.log("true");
+		}
+		if (Cookies.get("ConsentCookieResumeProject") === undefined) {
+			setCookieConsent(false);
+			console.log("false");
+		}
+	}, [cookieConsent]);
+
+	const HandleAcceptConsent = () => {
+		setCookieConsent(true);
+	};
 
 	return (
 		<div className="main-left theme-dark">
@@ -105,9 +122,11 @@ const HomeOne = () => {
 			<CookieConsent
 				location="bottom"
 				buttonText="Accept All"
-				cookieName="ConsentCookieSebastian"
+				cookieName="ConsentCookieResumeProject"
 				enableDeclineButton={true}
 				style={{ background: "#2B373B" }}
+				setDeclineCookie={false}
+				onAccept={HandleAcceptConsent}
 				buttonStyle={{
 					background: "#ff9301",
 					color: "#ffffff",
