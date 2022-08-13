@@ -27,11 +27,9 @@ const HomeOne = () => {
 			setCookieConsent(true);
 			ReactGA.initialize("G-K00B3WGTR2");
 			ReactGA.send("pageview");
-			console.log("true");
 		}
 		if (Cookies.get("ConsentCookieResumeProject") === undefined) {
 			setCookieConsent(false);
-			console.log("false");
 		}
 	}, [cookieConsent]);
 
@@ -44,7 +42,7 @@ const HomeOne = () => {
 			<Header />
 			{/* End Header Section */}
 
-			<Slider />
+			<Slider cookieConsent={cookieConsent} />
 			{/* End Slider Section */}
 
 			<About />

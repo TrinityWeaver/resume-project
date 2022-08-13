@@ -1,5 +1,6 @@
 import React from "react";
 import TextLoop from "react-text-loop";
+import ReactGA from "react-ga4";
 
 const conctInfo = {
 	phone: "+44 793-665-7257",
@@ -24,11 +25,20 @@ const sliderContent = {
 	btnText: " Donwload CV",
 };
 
-const HandleResumeDownload = () => {
-	console.log("Clicked");
-};
+const Slider = (props) => {
+	const cookieConsent = props.cookieConsent;
 
-const Slider = () => {
+	const HandleResumeDownload = (event) => {
+		event.preventDefault();
+		if (cookieConsent === true) {
+			ReactGA.event({
+				category: "File Download",
+				action: "CV Download",
+				label: "CV Download", // optional
+			});
+		}
+	};
+
 	return (
 		<>
 			{/*  Home Banner */}
@@ -91,7 +101,7 @@ const Slider = () => {
 									className="mt-4"
 									data-aos="fade-up"
 									data-aos-duration="1200"
-									data-aos-delay="400"
+									data-aos-delay="100"
 								>
 									<a
 										className="px-btn px-btn-white"
