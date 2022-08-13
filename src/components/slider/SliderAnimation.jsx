@@ -29,7 +29,6 @@ const Slider = (props) => {
 	const cookieConsent = props.cookieConsent;
 
 	const HandleResumeDownload = (event) => {
-		event.preventDefault();
 		if (cookieConsent === true) {
 			ReactGA.event({
 				category: "File Download",
