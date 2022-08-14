@@ -20,17 +20,6 @@ const HomeOne = () => {
 	const [cookieConsent, setCookieConsent] = useState(false);
 	const [cookieConsentAccepted, setCookieConsentAccepted] = useState(false);
 
-	/* useEffect(() => {
-		if (Cookies.get("ConsentCookieResumeProject") !== undefined) {
-			setCookieConsent(true);
-			ReactGA.initialize("G-K00B3WGTR2");
-			ReactGA.send("pageview");
-		}
-		if (Cookies.get("ConsentCookieResumeProject") === undefined) {
-			setCookieConsent(false);
-		}
-	}, []); */
-
 	if (
 		Cookies.get("ConsentCookieResumeProject") !== undefined ||
 		cookieConsent === true
