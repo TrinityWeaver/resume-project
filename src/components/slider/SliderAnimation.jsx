@@ -31,7 +31,7 @@ const Slider = (props) => {
 	const HandleResumeDownload = (event) => {
 		if (cookieConsent === true) {
 			ReactGA.event({
-				category: "File Download",
+				category: "CV Download",
 				action: "CV Download",
 				label: "CV Download", // optional
 			});
@@ -104,7 +104,7 @@ const Slider = (props) => {
 								>
 									<a
 										className="px-btn px-btn-white"
-										href="img/resume.png"
+										href="img/pdf/Sebastian's_Resume.pdf"
 										download
 										onClick={HandleResumeDownload}
 									>

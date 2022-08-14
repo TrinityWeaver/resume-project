@@ -18,12 +18,10 @@ import { useState, useEffect } from "react";
 const HomeOne = () => {
 	useDocumentTitle("Sebastian's Resume");
 	const [cookieConsent, setCookieConsent] = useState(false);
+	const [cookieConsentAccepted, setCookieConsentAccepted] = useState(false);
 
-	useEffect(() => {
-		if (
-			Cookies.get("ConsentCookieResumeProject") !== undefined ||
-			cookieConsent === true
-		) {
+	/* useEffect(() => {
+		if (Cookies.get("ConsentCookieResumeProject") !== undefined) {
 			setCookieConsent(true);
 			ReactGA.initialize("G-K00B3WGTR2");
 			ReactGA.send("pageview");
@@ -31,7 +29,22 @@ const HomeOne = () => {
 		if (Cookies.get("ConsentCookieResumeProject") === undefined) {
 			setCookieConsent(false);
 		}
-	}, [cookieConsent]);
+	}, []); */
+
+	if (
+		Cookies.get("ConsentCookieResumeProject") !== undefined ||
+		cookieConsent === true
+	) {
+		ReactGA.initialize("G-K00B3WGTR2");
+		ReactGA.send("pageview");
+	}
+
+	if (
+		Cookies.get("ConsentCookieResumeProject") !== undefined &&
+		cookieConsentAccepted === false
+	) {
+		setCookieConsentAccepted(true);
+	}
 
 	const HandleAcceptConsent = () => {
 		setCookieConsent(true);
