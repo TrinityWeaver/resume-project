@@ -13,7 +13,8 @@ import useDocumentTitle from "../../components/useDocumentTitle";
 import CookieConsent from "react-cookie-consent";
 import Cookies from "js-cookie";
 import ReactGA from "react-ga4";
-import { useState, useEffect } from "react";
+import { useState } from "react";
+import { hotjar } from "react-hotjar";
 
 const HomeOne = () => {
 	useDocumentTitle("Sebastian's Resume");
@@ -26,6 +27,7 @@ const HomeOne = () => {
 	) {
 		ReactGA.initialize("G-K00B3WGTR2");
 		ReactGA.send("pageview");
+		hotjar.initialize(3108880, 6);
 	}
 
 	if (
