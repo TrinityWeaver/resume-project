@@ -125,7 +125,7 @@ const HomeOne = () => {
 				location="bottom"
 				buttonText="Accept All"
 				cookieName="ConsentCookieResumeProject"
-				enableDeclineButton={true}
+				enableDeclineButton={false}
 				style={{ background: "#2B373B" }}
 				setDeclineCookie={false}
 				onAccept={HandleAcceptConsent}
