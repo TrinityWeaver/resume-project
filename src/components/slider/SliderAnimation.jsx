@@ -12,17 +12,16 @@ const sliderContent = {
 	designation: "Cloud / DevOps Engineer",
 	description: `Certified AWS Certified Developer, Results-driven and collaborative 
 	Cloud engineer offering 1+ years of experience building 
-	automated AWS solutions, building and managing CI/CD 
-	pipeline solutions, python coding, shell scripting, 
-	server management, and Jenkins management. 
+	automated AWS systems, building and managing CI/CD 
+	pipeline solutions ( Jenkins ), python coding, shell scripting, 
+	Linux servers management, and automating existing product development workflows. 
 	In possession of exceptional attention to detail, 
 	the ability to think critically, residence, an 
 	insatiable thirst for knowledge, and an infectiously 
-	positive attitude. I am looking for Junior roles and 
-	an opportunity for Freelance Jobs in DevOps Engineering 
-	and Cloud Engineering for further development in my 
-	IT career.`,
-	btnText: " Donwload CV",
+	positive attitude. I am looking for roles and opportunities for Freelance Jobs 
+	in DevOps Engineering and Cloud Engineering for further development in my IT 
+	career.`,
+	btnText: " Download CV",
 };
 
 const Slider = (props) => {
