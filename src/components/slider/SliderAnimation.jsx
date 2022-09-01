@@ -11,7 +11,7 @@ const sliderContent = {
 	name: "Sebastian Marynicz",
 	designation: "Cloud / DevOps Engineer",
 	description: `Certified AWS Certified Developer, Results-driven and collaborative 
-	Cloud engineer offering 1+ years of experience building 
+	Cloud/DevOps engineer offering 1+ years of experience building 
 	automated AWS systems, building and managing CI/CD 
 	pipeline solutions ( Jenkins ), python coding, shell scripting, 
 	Linux servers management, and automating existing product development workflows. 

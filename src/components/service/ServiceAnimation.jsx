@@ -3,9 +3,12 @@ import React from "react";
 const ServiceContent = [
 	{
 		icon: "icon-cloud",
-		title: "Web Design",
-		descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+		title: "Cloud Engineering",
+		descriptions: `As a Cloud engineer, I build and maintain cloud infrastructure. In addition, 
+		I develop, deploy, and debug cloud-based applications with an emphasis on automation, 
+		orchestration and integration. I also monitor and administer cloud systems, all related 
+		services and platforms to integrate security as a shared responsibility throughout the 
+		entire IT lifecycle.`,
 		delayAnimation: "",
 	},
 	{

@@ -51,10 +51,10 @@ const About = () => {
 									<p>
 										In my current role, I was exposed to many Programing
 										Languages, like Python, and React JS, bash scripting. I am
-										passionate about new technologies, like Linux Systems,
-										Cloud, and AWS. I am always keen to learn new technologies
-										and skills. As proof of my knowledge, I recently obtained
-										AWS Developer Associate Certification, which involved a wide
+										passionate about new technologies and Linux Systems, Cloud,
+										and AWS. I am always keen to learn new technologies and
+										skills. As proof of my knowledge, I recently obtained AWS
+										Developer Associate Certification, which involved a wide
 										range of skills related to AWS Cloud, to achieve
 										certification.
 									</p>
