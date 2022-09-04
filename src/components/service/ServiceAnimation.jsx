@@ -13,16 +13,26 @@ const ServiceContent = [
 	},
 	{
 		icon: "icon-desktop",
-		title: "Web Development",
-		descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+		title: "DevOps Engineering",
+		descriptions: `As a DevOps engineer, I introduce processes, tools, 
+		and methodologies to balance needs throughout the software development 
+		life cycle, from coding and deployment to maintenance and updates. 
+		I automate a chunk of internal processes and ensure the security of 
+		the software in the system.
+		I also manage CI/CD pipelines. Automated pipelines remove manual errors, 
+		provide standardized feedback loops to developers, and enable fast 
+		product iterations in our software delivery process.`,
 		delayAnimation: "200",
 	},
 	{
 		icon: "icon-browser",
-		title: "Seo Marketing",
-		descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+		title: "Python Development",
+		descriptions: `I design, code, build APIs ( Flask, Django ), and 
+		deploy development projects in Python, mainly in AWS Cloud. I 
+		also work on debugging those same projects to ensure they 
+		function as intended. As a python developer, I work closely 
+		with other teams, including data collection and analytics, to 
+		help answer questions and provide insight.`,
 		delayAnimation: "400",
 	},
 ];

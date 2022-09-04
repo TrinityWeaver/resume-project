@@ -3,7 +3,7 @@ import Skills from "../skills/Skills";
 
 const resumeContent = [
 	{
-		jobPosition: `Junior Cloud Engineer`,
+		jobPosition: `Cloud/DevOps Engineer`,
 		jobType: `ZAVA | Remote`,
 		jobDuration: `Jan 2022 - Present`,
 		timeDuraton: `Full Time`,
@@ -98,7 +98,7 @@ const Resume = () => {
 					{/* End separated */}
 
 					<div className="title">
-						<h3>Certifications & Skills</h3>{" "}
+						<h3>Skills</h3>{" "}
 					</div>
 
 					<div className="row align-items-center">
