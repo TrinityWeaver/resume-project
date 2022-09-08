@@ -31,32 +31,32 @@ export default function SimpleSlider() {
 
   const TestimonilContent = [
     {
-      imageName: "team-1",
-      desc: `  Lorem Ipsum is simply dummy text of the printing and
-      typesetting industry. Lorem Ipsum has been the industry's
-      standard dummy text ever since the 1500s.`,
-      reviewerName: "Nancy Byers",
-      designation: "CEO at ib-themes",
+      imageName: "tom",
+      desc: `  I’ve worked with many Cloud/Devops Engineers but Sebastian was one of the best.
+      He consistently gave 100% of herself to our team, and was critical in ensuring the 
+      completion of our projects by the deadline. 
+      Sebastian was always reliable and professional, and at stressful times he was a positive 
+      influence on all of us.
+      Overall, Sebastian was a pleasure to work with and I have qualms recommending him to 
+      anybody looking for an excellent Cloud/DevOps Engineer.`,
+      reviewerName: "Tomasz Nowak",
+      designation: "Information Technology Operations Manager at ZAVA",
       delayAnimation: "",
     },
     {
-      imageName: "team-2",
-      desc: ` Lorem Ipsum is simply dummy text of the printing and
-      typesetting industry. Lorem Ipsum has been the industry's
-      standard dummy text ever since the 1500s.`,
-      reviewerName: "Jara Afsari",
-      designation: "CEO at ib-themes",
+      imageName: "arnold",
+      desc: ` Only one word that comes to mind when I think of Sebastian, and that’s AWESOME. 
+      I worked with Sebastian at ZAVA and he was a consummate professional at all times. 
+      He explained the inner workings of the company perfectly and was instrumental in helping 
+      me to find my feet.
+      Sebastian‘s work ethic was impeccable, and he was always the first person to offer help 
+      and support.
+      Thanks, Sebastian! You made my time at ZAVA a pleasure.`,
+      reviewerName: "Arnold Sadrijaj",
+      designation: "IT Operations Engineer at ZAVA",
       delayAnimation: "200",
     },
-    {
-      imageName: "team-4",
-      desc: ` Lorem Ipsum is simply dummy text of the printing and
-      typesetting industry. Lorem Ipsum has been the industry's
-      standard dummy text ever since the 1500s.`,
-      reviewerName: "Janiaya kiaram",
-      designation: "Visual Designer",
-      delayAnimation: "400",
-    },
+
   ];
 
   return (
