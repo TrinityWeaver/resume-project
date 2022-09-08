@@ -53,7 +53,7 @@ export default function SimpleSlider() {
       and support.
       Thanks, Sebastian! You made my time at ZAVA a pleasure.`,
       reviewerName: "Arnold Sadrijaj",
-      designation: "IT Operations Engineer at ZAVA",
+      designation: "Senior IT Operations Engineer at ZAVA",
       delayAnimation: "200",
     },
 
