@@ -9,8 +9,11 @@ const resumeContent = [
 		timeDuraton: `Full Time`,
 		compnayName: "ZAVA",
 		jobDescription: `Build and implement Available, Persistent and auto-healing CI/CD Jenkins Pipeline in AWS Cloud in an automated fashion using Terraform and Ansible and maintaining, configuring and troubleshooting CI/CD Pipeline issues.
-    Build various automated solutions for business logic involving AWS ( Cognito, Lambda, API Gateway, RDS, DynamoDB and many more ), different programming languages ( Python, JavaScript ) and other technologies.
-    Implementation / Creating IT Op's Portal ( Static Web Applications which enables access to a couple of company services) using various technologies: JavaScript, Python, React, CloudFront, AWS WAF, AWS Lambda, AWS API - Gateway, AWS Cognito etc.`,
+    Build various automated solutions for business logic involving AWS ( Cognito, Lambda, API Gateway, RDS, DynamoDB etc. ), and different programming languages ( Python, JavaScript ), and many more other technologies.
+    Implementation / Creating IT Op's Portal ( Static Web Website which enables access to a couple of company services) using various technologies: JavaScript, 
+	React, hosted on AWS (S3, CloudFront) with integrated OneLogin with AWS Cognito, and CDN 
+	is secured with a few Cloud Security technologies and with Cloud security principles, as 
+	well as API Gateway serving gate to microservices in Lambdas.`,
 		delayAnimation: "",
 	},
 	{
