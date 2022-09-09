@@ -58,6 +58,20 @@ export default function SimpleSlider() {
       designation: "Senior IT Operations Engineer at ZAVA",
       delayAnimation: "200",
     },
+    {
+      imageName: "raja",
+      desc: ` Sebastian is my go-to for technical knowledge ( Cloud, Linux, Python ). Whenever I need help with AWS,
+      I make sure to reach out to him, as he is the best at it. He has been 
+      collaborating with my team for a couple of years, and on top of 
+      being a great Cloud/DevOps Engineer, he is also an easy-going person.
+      I definitely recommend Sebastian to any job.”`,
+      reviewerName: "Balawal Raja",
+      designation: "IT Operations Engineer at ZAVA",
+      delayAnimation: "200",
+    },
+
+
+
 
   ];
 
