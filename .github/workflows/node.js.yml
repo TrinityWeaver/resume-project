@@ -32,8 +32,9 @@ jobs:
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 
 
-    - uses: awact/cloudfront-action@master
+
     - name: CDN Cache Invalidate
+      uses: awact/cloudfront-action@master        
       env:
         SOURCE_PATH: './public'
         AWS_REGION: 'us-east-1'
