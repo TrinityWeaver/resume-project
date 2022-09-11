@@ -1,6 +1,5 @@
 import React from "react";
 import TextLoop from "react-text-loop";
-import ReactGA from "react-ga4";
 
 const conctInfo = {
 	phone: "+44 793-665-7257",
@@ -24,18 +23,8 @@ const sliderContent = {
 	btnText: " Download CV",
 };
 
-const Slider = (props) => {
-	const cookieConsent = props.cookieConsent;
+const Slider = () => {
 
-	const HandleResumeDownload = (event) => {
-		if (cookieConsent === true) {
-			ReactGA.event({
-				category: "CV Download",
-				action: "CV Download",
-				label: "CV Download", // optional
-			});
-		}
-	};
 
 	return (
 		<>
@@ -105,7 +94,6 @@ const Slider = (props) => {
 										className="px-btn px-btn-white"
 										href="img/pdf/Sebastian's_Resume.pdf"
 										download
-										onClick={HandleResumeDownload}
 									>
 										{sliderContent.btnText}
 									</a>
