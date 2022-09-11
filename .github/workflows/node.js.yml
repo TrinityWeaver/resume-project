@@ -30,6 +30,16 @@ jobs:
         aws-region: eu-west-2
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+
+
+    - uses: awact/cloudfront-action@master
+    - name: CDN Cache Invalidate
+      env:
+        SOURCE_PATH: './public'
+        AWS_REGION: 'us-east-1'
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        DISTRIBUTION_ID: ${{ secrets.DISTRIBUTION_ID }}              
     
     - name: npm ci
       run: npm ci --legacy-peer-deps
