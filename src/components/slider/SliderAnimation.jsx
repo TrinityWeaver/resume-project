@@ -2,7 +2,7 @@ import React from "react";
 import TextLoop from "react-text-loop";
 
 const conctInfo = {
-	phone: "+44 200-200-2000",
+	phone: "+44 739-739-2000",
 	email: " contact@sebastianmarynicz.co.uk",
 };
 
