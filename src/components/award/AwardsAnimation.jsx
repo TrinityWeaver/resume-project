@@ -6,18 +6,21 @@ const AwardContnet = [
 		awardName: "AWS Certified Developer – Associate",
 		awardFor: "May 2022",
 		delayAnimation: "0",
+		link: "https://www.credly.com/badges/b7e88bad-7ffa-4589-b371-a5ba5224b0f7/public_url"
 	},
 	{
 		img: "jamfpro",
 		awardName: "Jamf Certified Expert",
 		awardFor: "May 2021",
 		delayAnimation: "200",
+		link: "https://account.jamf.com/training-courses/certificate/t4-3tcH7RD1euP6Uicj_zA"
 	},
 	{
 		img: "pcep",
 		awardName: "PCEP - Certified Entry-Level Python Programmer",
 		awardFor: "Dec 2020",
 		delayAnimation: "400",
+		link: "https://verify.openedg.org/?id=xN39.NH7u.na2t"
 	},
 ];
 
@@ -38,7 +41,7 @@ const Awards = () => {
 								<img src={`img/award/${val.img}.png`} alt="award" />
 							</div>
 							<div className="media-body">
-								<h6>{val.awardName}</h6>
+								<h6><a href={val.link}>{val.awardName}</a></h6>
 								<p>{val.awardFor}</p>
 							</div>
 						</div>
