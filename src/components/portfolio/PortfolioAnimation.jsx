@@ -35,7 +35,7 @@ const tabListContent = [
           "https://dribbble.com/shots/16529350-Nairo-Personal-Portfolio-React-Template",
       },
       {
-        img: "jenkins4",
+        img: "jenkinssvg",
         title: "CI/CD Jenkins",
         subTitle: "CI/CD Pipeline",
         alterText: "CI/CD Jenkins",
@@ -50,16 +50,16 @@ const tabListContent = [
         alterText: "Websites",
         delayAnimation: "0",
         portfolioLink:
-          "https://dribbble.com/shots/16545341-Imroz-Vue-JS-Creative-Agency-Portfolio-Template",
+          "https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/deploy-a-react-based-single-page-application-to-amazon-s3-and-cloudfront.html",
       },
       {
-        img: "m-portfolio-5",
+        img: "archive",
         title: "Archiving Accounts Automation",
-        subTitle: "Serverless Automation",
+        subTitle: "Serverless Automation Integrated with Google Workspace",
         alterText: "Automations",
         delayAnimation: "100",
         portfolioLink:
-          "https://dribbble.com/shots/16529158-Waxon-Personal-Portfolio-VueJS-Template-RTL",
+          "https://aws.amazon.com/step-functions/?step-functions.sort-by=item.additionalFields.postDateTime&step-functions.sort-order=desc",
       },
       {
         img: "m-portfolio-6",
@@ -71,13 +71,13 @@ const tabListContent = [
           "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
       },
       {
-        img: "m-portfolio-6",
+        img: "helper_correct",
         title: "HelperCLI for AWS",
         subTitle: "Resource Removal",
         alterText: "Python",
         delayAnimation: "200",
         portfolioLink:
-          "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
+          "https://github.com/TrinityWeaver/helper-cli",
       },
     ],
   },
@@ -103,13 +103,13 @@ const tabListContent = [
               "https://dribbble.com/shots/16529350-Nairo-Personal-Portfolio-React-Template",
           },
           {
-            img: "m-portfolio-4",
+            img: "spa1",
             title: "Internal SPA Portal",
             subTitle: "SPA with serverless microservices",
             alterText: "Websites",
             delayAnimation: "0",
             portfolioLink:
-              "https://dribbble.com/shots/16545341-Imroz-Vue-JS-Creative-Agency-Portfolio-Template",
+              "https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/deploy-a-react-based-single-page-application-to-amazon-s3-and-cloudfront.html",
           },
     ],
   },
@@ -118,13 +118,13 @@ const tabListContent = [
 
       // CI/CD Jenkins
       {
-        img: "m-portfolio-3",
+        img: "jenkinssvg",
         title: "CI/CD Jenkins",
         subTitle: "CI/CD Pipeline",
         alterText: "CI/CD Jenkins",
         delayAnimation: "200",
         portfolioLink:
-          "https://dribbble.com/shots/16529407-Deski-Saas-Software-React-Template",
+          "https://cloudonaut.io/how-to-set-up-jenkins-on-aws/",
       },
     ],
   },
@@ -133,13 +133,13 @@ const tabListContent = [
 
       // Automations
       {
-        img: "m-portfolio-5",
+        img: "archive",
         title: "Archiving Accounts Automation",
-        subTitle: "Serverless Automation",
+        subTitle: "Serverless Automation Integrated with Google Workspace",
         alterText: "Automations",
         delayAnimation: "100",
         portfolioLink:
-          "https://dribbble.com/shots/16529158-Waxon-Personal-Portfolio-VueJS-Template-RTL",
+          "https://aws.amazon.com/step-functions/?step-functions.sort-by=item.additionalFields.postDateTime&step-functions.sort-order=desc",
       },
     ],
   },
@@ -157,13 +157,13 @@ const tabListContent = [
           "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
       },
       {
-        img: "m-portfolio-6",
+        img: "helper_correct",
         title: "HelperCLI for AWS",
         subTitle: "Resource Removal",
         alterText: "Python",
         delayAnimation: "200",
         portfolioLink:
-          "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
+          "https://github.com/TrinityWeaver/helper-cli",
       },
     ],
   },
