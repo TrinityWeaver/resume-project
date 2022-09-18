@@ -35,13 +35,13 @@ const tabListContent = [
           "https://dribbble.com/shots/16529350-Nairo-Personal-Portfolio-React-Template",
       },
       {
-        img: "m-portfolio-3",
+        img: "jenkins4",
         title: "CI/CD Jenkins",
         subTitle: "CI/CD Pipeline",
         alterText: "CI/CD Jenkins",
         delayAnimation: "200",
         portfolioLink:
-          "https://dribbble.com/shots/16529407-Deski-Saas-Software-React-Template",
+          "https://cloudonaut.io/how-to-set-up-jenkins-on-aws/",
       },
       {
         img: "m-portfolio-4",
@@ -118,13 +118,13 @@ const tabListContent = [
 
       // CI/CD Jenkins
       {
-        img: "m-portfolio-3",
+        img: "jenkins4",
         title: "CI/CD Jenkins",
         subTitle: "CI/CD Pipeline",
         alterText: "CI/CD Jenkins",
         delayAnimation: "200",
         portfolioLink:
-          "https://dribbble.com/shots/16529407-Deski-Saas-Software-React-Template",
+          "https://cloudonaut.io/how-to-set-up-jenkins-on-aws/",
       },
     ],
   },
