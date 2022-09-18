@@ -44,7 +44,7 @@ const tabListContent = [
           "https://cloudonaut.io/how-to-set-up-jenkins-on-aws/",
       },
       {
-        img: "m-portfolio-4",
+        img: "spa1",
         title: "Internal SPA Portal",
         subTitle: "SPA with serverless microservices",
         alterText: "Websites",
@@ -118,13 +118,13 @@ const tabListContent = [
 
       // CI/CD Jenkins
       {
-        img: "jenkins4",
+        img: "m-portfolio-3",
         title: "CI/CD Jenkins",
         subTitle: "CI/CD Pipeline",
         alterText: "CI/CD Jenkins",
         delayAnimation: "200",
         portfolioLink:
-          "https://cloudonaut.io/how-to-set-up-jenkins-on-aws/",
+          "https://dribbble.com/shots/16529407-Deski-Saas-Software-React-Template",
       },
     ],
   },
@@ -213,11 +213,11 @@ const Portfolio = () => {
                           </div>
                           {/* End .portfolio-info */}
                           <a
-                            href={`img/portfolio/${val.img}.jpg`}
+                            href={`img/portfolio/${val.img}.svg`}
                             className="gallery-link"
                           >
                             <img
-                              src={`img/portfolio/${val.img}.jpg`}
+                              src={`img/portfolio/${val.img}.svg`}
                               alt={val.alterText}
                             />
                           </a>
