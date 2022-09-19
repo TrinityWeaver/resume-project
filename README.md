@@ -9,7 +9,7 @@ The project is Deployed to AWS with Configured CDN (Content Delivery Network) wi
 
 ![Preview](public/img/preview/preview.png)
 
-[Live Preview](https://www.sebastianmarynicz.com)
+[Live Preview](https://www.sebastianmarynicz.co.uk/)
 
 
 ## Description
