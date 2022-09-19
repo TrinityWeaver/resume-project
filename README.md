@@ -4,8 +4,12 @@ This is a personal portfolio website for Sebastian Marynicz. It is built using [
 
 The project is Deployed to AWS with Configured CDN (Content Delivery Network) with TLS on AWS CloudFront. 
 
-Website URL: [https://www.sebastianmarynicz.com](https://www.sebastianmarynicz.com)
 
+## Preview
+
+![Preview](public/img/preview/preview.png)
+
+[Live Preview](https://www.sebastianmarynicz.com)
 
 
 ## Description
