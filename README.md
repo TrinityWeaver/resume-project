@@ -2,6 +2,8 @@
 
 This is a personal portfolio website for Sebastian Marynicz. It is built using [themeforest](https://themeforest.net/) and the [themeforest](https://themeforest.net/item/nairo-react-personal-portfolio-template/33404455) theme.
 
+The project is Deployed to AWS with Configured CDN (Content Delivery Network) with TLS on AWS CloudFront. 
+
 Website URL: [https://www.sebastianmarynicz.com](https://www.sebastianmarynicz.com)
 
 
