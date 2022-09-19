@@ -1,5 +1,11 @@
 # Sebastian Marynicz Personal Portfolio 
 
+This is a personal portfolio website for Sebastian Marynicz. It is built using [themeforest](https://themeforest.net/) and the [themeforest](https://themeforest.net/item/nairo-react-personal-portfolio-template/33404455) theme.
+
+Website URL: [https://www.sebastianmarynicz.com](https://www.sebastianmarynicz.com)
+
+
+
 ## Description
 
 Setup Procedure
