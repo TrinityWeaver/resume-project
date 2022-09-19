@@ -1,4 +1,4 @@
-# Nairo React Personal Portfolio Template
+# Sebastian Marynicz Personal Portfolio 
 
 ## Description
 
