@@ -63,9 +63,10 @@ jobs:
 
 
   Deploy_Prod:
+    environment: 'Prod'
+    needs: Analyze_CodeQL  
     build:
-      environment: 'Prod'
-      needs: Analyze_CodeQL
+
       runs-on: ubuntu-latest
 
       strategy:
