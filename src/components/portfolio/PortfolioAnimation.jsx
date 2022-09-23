@@ -17,13 +17,13 @@ const tabListContent = [
   {
     porftoliItems: [
       {
-        img: "m-portfolio-1",
+        img: "resume-front",
         title: "Resume Project",
         subTitle: "www.sebastianmarynicz.co.uk",
         alterText: "Websites",
         delayAnimation: "",
         portfolioLink:
-          "https://dribbble.com/shots/16529339-Beny-Personal-Portfolio-React-Template",
+          "https://github.com/TrinityWeaver/resume-project",
       },
       {
         img: "m-portfolio-2",
@@ -85,13 +85,13 @@ const tabListContent = [
     porftoliItems: [
            // Websites
            {
-            img: "m-portfolio-1",
+            img: "resume-front",
             title: "Resume Project",
             subTitle: "www.sebastianmarynicz.co.uk",
             alterText: "Websites",
             delayAnimation: "",
             portfolioLink:
-              "https://dribbble.com/shots/16529339-Beny-Personal-Portfolio-React-Template",
+              "https://github.com/TrinityWeaver/resume-project",
           },
           {
             img: "m-portfolio-2",
