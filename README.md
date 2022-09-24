@@ -27,7 +27,7 @@ For Phone number I use Amazon Connect to route calls to my mobile phone.
 For web application firewall i use AWS WAF, which is a web application firewall that helps protect your web applications or APIs against common web exploits and bots that may affect availability, compromise security, or consume excessive resources.
 
 
-# Infrastructure as Code with Terraform
+## Infrastructure as Code with Terraform
 
 
 This is a project making use of AWS and Terraform to host my Resume at [Terraform IaC](https://github.com/TrinityWeaver/tf-resume-project)
