@@ -12,34 +12,27 @@ The project is Deployed to AWS with Configured CDN (Content Delivery Network) wi
 [Live Preview](https://www.sebastianmarynicz.co.uk/)
 
 
-## Description
+## Application architecture
 
-Setup Procedure
 
-## Project setup
+Architecture Diagram - TBA
 
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
+This project is basically a static website hosted on S3, Configured CDN (Content Delivery Network) with TLS on AWS CloudFront.
 
-```
-npm run start
-```
+For email delivery, I use AWS SES (Simple Email Service) and for DNS I use AWS Route53.
 
-### Compiles and minifies for production
+For Phone number I use Amazon Connect to route calls to my mobile phone.
 
-```
-npm run build
-```
+For web application firewall i use AWS WAF, which is a web application firewall that helps protect your web applications or APIs against common web exploits and bots that may affect availability, compromise security, or consume excessive resources.
 
-### Lints and fixes files
 
-```
-npm run lint
-```
+# Infrastructure as Code with Terraform
 
-### Customize configuration (vue-cli)
 
-See [Configuration Reference](https://cli.vuejs.org/config/).
+This is a project making use of AWS and Terraform to host my Resume at [Terraform IaC](https://github.com/TrinityWeaver/tf-resume-project)
+
+
+## Build pipeline
+
+This project is built using [GitHub Actions](https://github.com/TrinityWeaver/resume-project/actions), which use CodeQL ( Security Code Scanning ), builds and deploys the latest React Project.
