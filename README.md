@@ -1,6 +1,5 @@
 # Resume Project 
 <br />
-<br />
 
 This is a personal portfolio website for Sebastian Marynicz. It is built using [themeforest](https://themeforest.net/) and the [themeforest](https://themeforest.net/item/nairo-react-personal-portfolio-template/33404455) theme.
 
@@ -9,7 +8,6 @@ The project is Deployed to AWS with Configured CDN (Content Delivery Network) wi
 
 ## Preview
 <br />
-<br />
 
 ![Preview](public/img/preview/preview.png)
 
@@ -17,7 +15,6 @@ The project is Deployed to AWS with Configured CDN (Content Delivery Network) wi
 
 
 # Application architecture
-<br />
 <br />
 
 ![Diagram](public/img/portfolio/resume-diagram.svg)
@@ -40,13 +37,11 @@ For web application firewall i use AWS WAF, which is a web application firewall 
 
 ## Infrastructure as Code with Terraform
 <br />
-<br />
 
 This is a project making use of AWS and Terraform to host my Resume at [Terraform IaC](https://github.com/TrinityWeaver/tf-resume-project)
 
 
 ## Build pipeline
-<br />
 <br />
 
 This project is built using [GitHub Actions](https://github.com/TrinityWeaver/resume-project/actions), which use CodeQL ( Security Code Scanning ), builds and deploys the latest React Project.
