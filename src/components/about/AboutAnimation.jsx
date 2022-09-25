@@ -98,7 +98,7 @@ const About = () => {
 											<ul>
 												<li>
 													<label>Phone: </label>
-													<span>(+44) 79366 57257</span>
+													<span>(+44) 20 3467 9604</span>
 												</li>
 												<li>
 													<label>Email: </label>
