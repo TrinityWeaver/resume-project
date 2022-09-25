@@ -26,13 +26,13 @@ const tabListContent = [
           "https://github.com/TrinityWeaver/resume-project",
       },
       {
-        img: "m-portfolio-2",
+        img: "resume-diagram",
         title: "Resume Terraform",
         subTitle: "Infrastructure as Code",
         alterText: "Websites",
         delayAnimation: "100",
         portfolioLink:
-          "https://dribbble.com/shots/16529350-Nairo-Personal-Portfolio-React-Template",
+          "https://github.com/TrinityWeaver/tf-resume-project",
       },
       {
         img: "jenkinssvg",
@@ -62,13 +62,13 @@ const tabListContent = [
           "https://aws.amazon.com/step-functions/?step-functions.sort-by=item.additionalFields.postDateTime&step-functions.sort-order=desc",
       },
       {
-        img: "m-portfolio-6",
+        img: "crypto",
         title: "Crypto Bot",
         subTitle: "Binance API",
         alterText: "Python",
         delayAnimation: "200",
         portfolioLink:
-          "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
+          "",
       },
       {
         img: "helper_correct",
@@ -94,13 +94,13 @@ const tabListContent = [
               "https://github.com/TrinityWeaver/resume-project",
           },
           {
-            img: "m-portfolio-2",
+            img: "resume-diagram",
             title: "Resume Terraform",
             subTitle: "Infrastructure as Code",
             alterText: "Websites",
             delayAnimation: "100",
             portfolioLink:
-              "https://dribbble.com/shots/16529350-Nairo-Personal-Portfolio-React-Template",
+              "https://github.com/TrinityWeaver/tf-resume-project",
           },
           {
             img: "spa1",
@@ -148,13 +148,13 @@ const tabListContent = [
 
       // Python
       {
-        img: "m-portfolio-6",
+        img: "crypto",
         title: "Crypto Bot",
         subTitle: "Binance API",
         alterText: "Python",
         delayAnimation: "200",
         portfolioLink:
-          "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
+          "",
       },
       {
         img: "helper_correct",
