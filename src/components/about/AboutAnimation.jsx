@@ -54,7 +54,7 @@ const About = () => {
 										passionate about new technologies and Linux Systems, Cloud,
 										and AWS. I am always keen to learn new technologies and
 										skills. As proof of my knowledge, I recently obtained AWS
-										Developer Associate Certification, which involved a wide
+										Developer and SysOps Administrator Associate Certifications, which involved a wide
 										range of skills related to AWS Cloud, to achieve
 										certification.
 									</p>

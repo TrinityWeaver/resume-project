@@ -35,8 +35,8 @@ const resumeContent = [
 
 const educatonContent = [
 	{
-		passingYear: "May 2022",
-		degreeTitle: "AWS Certified Developer - Associate",
+		passingYear: "May 2022 / Dec 2022",
+		degreeTitle: "AWS Certified Developer/SysOps - Associate",
 		instituteName: "Amazon Web Services Training and Certification",
 	},
 	{

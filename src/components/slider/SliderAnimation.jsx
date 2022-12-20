@@ -9,7 +9,7 @@ const conctInfo = {
 const sliderContent = {
 	name: "Sebastian Marynicz",
 	designation: "Cloud / DevOps Engineer",
-	description: `Certified AWS Certified Developer, Results-driven and collaborative 
+	description: `Certified AWS Certified Developer/SysOps, Results-driven and collaborative 
 	Cloud/DevOps engineer offering 1+ years of experience building 
 	automated AWS systems, building and managing CI/CD 
 	pipeline solutions ( Jenkins ), python coding, shell scripting, 
@@ -71,8 +71,8 @@ const Slider = () => {
 										<p className="loop-text lead">
 											AWS Certified Developer Associate
 										</p>
-										<p className="loop-text lead"> Cloud Engineer</p>
-										<p className="loop-text lead"> DevOps Engineer</p>
+										<p className="loop-text lead"> AWS Certified SysOps Administrator Associate</p>
+										<p className="loop-text lead"> Cloud/DevOps Engineer</p>
 									</TextLoop>
 								</div>
 
