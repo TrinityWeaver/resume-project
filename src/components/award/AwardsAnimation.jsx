@@ -12,7 +12,7 @@ const AwardContnet = [
 		img: "aws-certified-developer-associate",
 		awardName: "AWS Certified Developer – Associate",
 		awardFor: "May 2022",
-		delayAnimation: "0",
+		delayAnimation: "100",
 		link: "https://www.credly.com/badges/b7e88bad-7ffa-4589-b371-a5ba5224b0f7/public_url"
 	},
 	{
@@ -26,9 +26,24 @@ const AwardContnet = [
 		img: "pcep-30-01-pcep-certified-entry-level-python-programmer",
 		awardName: "PCEP - Certified Entry-Level Python Programmer",
 		awardFor: "Dec 2020",
-		delayAnimation: "400",
+		delayAnimation: "300",
 		link: "https://verify.openedg.org/?id=xN39.NH7u.na2t"
 	},
+	{
+		img: "jamfpro",
+		awardName: "Jamf Certified Admin",
+		awardFor: "Sep 2020",
+		delayAnimation: "400",
+		link: "https://account.jamf.com/training-courses/certificate/t4-3tcH7RD1euP6Uicj_zA"
+	},
+	{
+		img: "jamfpro",
+		awardName: "Jamf Certified Tech",
+		awardFor: "Jun 2020",
+		delayAnimation: "400",
+		link: "https://account.jamf.com/training-courses/certificate/t4-3tcH7RD1euP6Uicj_zA"
+	},
+
 ];
 
 const Awards = () => {
