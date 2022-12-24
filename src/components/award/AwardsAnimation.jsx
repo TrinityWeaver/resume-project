@@ -34,14 +34,14 @@ const AwardContnet = [
 		awardName: "Jamf Certified Admin",
 		awardFor: "Sep 2020",
 		delayAnimation: "400",
-		link: "https://account.jamf.com/training-courses/certificate/t4-3tcH7RD1euP6Uicj_zA"
+		link: "https://account.jamf.com/training-courses/certificate/hBxuq-Ak29mot6YTwFnPow"
 	},
 	{
 		img: "jamfpro",
 		awardName: "Jamf Certified Tech",
 		awardFor: "Jun 2020",
 		delayAnimation: "400",
-		link: "https://account.jamf.com/training-courses/certificate/t4-3tcH7RD1euP6Uicj_zA"
+		link: "https://account.jamf.com/training-courses/certificate/iply076P4LGQW_0-UKA9_A"
 	},
 
 ];
