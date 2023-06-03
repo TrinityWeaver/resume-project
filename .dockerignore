@@ -1,2 +1,6 @@
 package-lock.json
 .gitignore
+.env
+.github
+/build
+/node_modules
