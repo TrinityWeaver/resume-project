@@ -1,0 +1,21 @@
+FROM node:16.20.2@sha256:9096e122b56e434bfa963f161417cf61637b31d9fdfd5d68c411ceb0d962ffe4 as build
+
+WORKDIR /app
+
+COPY package.json /app
+
+RUN npm install --legacy-peer-deps
+
+COPY . .
+
+RUN npm run build
+
+FROM nginxinc/nginx-unprivileged:alpine3.17@sha256:9aae2bb4378521f21978e21a3386eee6075690e136990419e4b5919a4b1ba8a0
+
+COPY --from=build /app/build /usr/share/nginx/html
+
+
+
+EXPOSE 8080
+
+CMD [ "nginx", "-g", "daemon off;" ]
