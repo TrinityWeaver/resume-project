@@ -8,12 +8,18 @@ const resumeContent = [
 		jobDuration: `Jan 2022 - Present`,
 		timeDuraton: `Full Time`,
 		compnayName: "ZAVA",
-		jobDescription: `Build and implement Available, Persistent and auto-healing CI/CD Jenkins Pipeline in AWS Cloud in an automated fashion using Terraform and Ansible and maintaining, configuring and troubleshooting CI/CD Pipeline issues.
-    Build various automated solutions for business logic involving AWS ( Cognito, Lambda, API Gateway, RDS, DynamoDB etc. ), and different programming languages ( Python, JavaScript ), and many more other technologies.
-    Implementation / Creating IT Op's Portal ( Static Web Website which enables access to a couple of company services) using various technologies: JavaScript, 
-	React, hosted on AWS (S3, CloudFront) with integrated OneLogin with AWS Cognito, and CDN 
-	is secured with a few Cloud Security technologies and with Cloud security principles, as 
-	well as API Gateway serving gate to microservices in Lambdas.`,
+		jobDescription: `Building and implementing a robust, persistent, and auto-healing CI/CD Jenkins Pipeline in AWS Cloud in an automated manner using 
+		Terraform and Ansible. This involves maintaining, configuring, and troubleshooting CI/CD pipeline issues, as well as developing various automated 
+		solutions for business logic. These solutions leverage AWS services such as Cognito, Lambda, API Gateway, RDS, DynamoDB, and more, using programming 
+		languages like Python and JavaScript among other technologies.
+			
+		In terms of infrastructure management, I spearheaded a significant modernization of our Ansible approach. Previously, each server acted as an Ansible controller, 
+		downloading configurations from S3 buckets to configure itself. I transitioned this to a centralized Ansible controller model, which streamlined the process, 
+		ensured consistent synchronization across servers, and aligned with modern best practices in infrastructure as code and configuration management.
+		
+		Additionally, I developed a solution for a BI tool by implementing Lightdash, an application integrated into our ECS Fargate service. This implementation 
+		facilitated effective communication between dbt Cloud and our data warehouse, Redshift. The integration of Lightdash into our architecture enhanced our BI capabilities, 
+		allowing for more sophisticated data analysis and visualization, and improving data-driven decision-making processes.`,
 		delayAnimation: "",
 	},
 	{
