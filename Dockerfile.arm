@@ -10,7 +10,7 @@ COPY . .
 
 RUN npm run build
 
-FROM nginxinc/nginx-unprivileged:alpine3.17@sha256:9aae2bb4378521f21978e21a3386eee6075690e136990419e4b5919a4b1ba8a0
+FROM nginxinc/nginx-unprivileged:alpine3.18@sha256:b2302acc7ca12f31a934bc64aa9f9c8080a5cabd8dd8b408c0b37c38006a595e
 
 COPY --from=build /app/build /usr/share/nginx/html
 
