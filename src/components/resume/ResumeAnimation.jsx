@@ -3,6 +3,21 @@ import Skills from "../skills/Skills";
 
 const resumeContent = [
 	{
+		jobPosition: `Cloud Engineer / Kubernetes Engineer /Systems & Network Administrator`,
+		jobType: `SmartDCC | Hybrid`,
+		jobDuration: `Dec 2023 - Present`,
+		timeDuraton: `Full Time`,
+		compnayName: "SmartDCC",
+		jobDescription: `Served as the main engineer responsible for the infrastructure and Kubernetes aspects of migrating the ELK Stack (Elasticsearch, Logstash, Kibana) to AWS EKS for the SOC team. Led the creation of a CI/CD pipeline for deploying the ECK stack and Logstash pipeline, ensuring seamless migration, automated deployments, and improved scalability and performance across the system.
+
+		Designed and implemented a serverless solution to ingest logs from the Meraki Cloud into Elasticsearch. Utilized API Gateway, AWS Lambda, and Logstash to create an efficient, scalable pipeline that streamlined log ingestion and processing, improving data flow and reducing infrastructure overhead.
+
+		Implemented pre-checks for Terraform code, ensuring that all pull requests are linted and checked with TFSec for security compliance. This process enhanced code quality and security within the team’s CI/CD pipeline, streamlining the review process and reducing vulnerabilities.
+
+		Developed a Terraform module to automatically create AWS CloudWatch alarms and integrated it with Microsoft Teams for real-time notifications. This solution ensures the team is promptly alerted when alarms are triggered, improving incident response times and system monitoring.`,
+		delayAnimation: "",
+	},	
+	{
 		jobPosition: `Cloud/DevOps Engineer`,
 		jobType: `ZAVA | Remote`,
 		jobDuration: `Jan 2022 - Present`,
@@ -29,26 +44,26 @@ const resumeContent = [
 		timeDuraton: `Full Time`,
 		compnayName: "ZAVA",
 		jobDescription: `Cyber Essentials Plus Company-wide certification gained.
-    Creating and implementing various solutions for business logic via Jamf Pro.
-    Network Debugging.
-    As a Senior IT Ops Engineer, I have provided 3rd Line Tech Support across the whole organisation, including maintaining networking hardware and software and performing other technical support duties.
-    Integration OneLogin as a solution for identity and access management and SSO widely in organisation.
-    Implementing Automations around Google Workspace, OneLogin and many more.
-    Enabling automated onboarding and offboarding process, for example, implementing automatic device enrollment and automatic encryption via Jamf.`,
+		Creating and implementing various solutions for business logic via Jamf Pro.
+		Network Debugging.
+		As a Senior IT Ops Engineer, I have provided 3rd Line Tech Support across the whole organisation, including maintaining networking hardware and software and performing other technical support duties.
+		Integration OneLogin as a solution for identity and access management and SSO widely in organisation.
+		Implementing Automations around Google Workspace, OneLogin and many more.
+		Enabling automated onboarding and offboarding process, for example, implementing automatic device enrollment and automatic encryption via Jamf.`,
 		delayAnimation: "100",
 	},
 ];
 
 const educatonContent = [
 	{
+		passingYear: "Nob 2024",
+		degreeTitle: "AWS Certified Developer/SysOps - Associate",
+		instituteName: "Amazon Web Services Training and Certification",
+	},	
+	{
 		passingYear: "May 2022 / Dec 2022",
 		degreeTitle: "AWS Certified Developer/SysOps - Associate",
 		instituteName: "Amazon Web Services Training and Certification",
-	},
-	{
-		passingYear: "May 2021",
-		degreeTitle: "Jamf Certified Expert",
-		instituteName: "Granted by Jamf",
 	},
 	{
 		passingYear: "December 2020",
