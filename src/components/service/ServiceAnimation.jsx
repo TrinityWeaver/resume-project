@@ -26,13 +26,8 @@ const ServiceContent = [
 	},
 	{
 		icon: "icon-browser",
-		title: "Python Development",
-		descriptions: `I design, code, build APIs ( Flask, Django ), and 
-		deploy development projects in Python, mainly in AWS Cloud. I 
-		also work on debugging those same projects to ensure they 
-		function as intended. As a python developer, I work closely 
-		with other teams, including data collection and analytics, to 
-		help answer questions and provide insight.`,
+		title: "Kubernetes Engineering",
+		descriptions: `I design, deploy, and manage Kubernetes-based solutions to support scalable and reliable development projects. My expertise includes creating and optimizing containerized applications, building and maintaining Kubernetes clusters, and automating deployments to ensure seamless application delivery. I work closely with cross-functional teams, including development and operations, to debug, monitor, and enhance Kubernetes workflows, ensuring projects function as intended and meet business needs.`,
 		delayAnimation: "400",
 	},
 ];

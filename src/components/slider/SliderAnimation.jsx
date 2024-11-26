@@ -9,17 +9,9 @@ const conctInfo = {
 const sliderContent = {
 	name: "Sebastian Marynicz",
 	designation: "Cloud / DevOps Engineer",
-	description: `Certified AWS Certified Developer/SysOps, Results-driven and collaborative 
-	Cloud/DevOps engineer offering 1+ years of experience building 
-	automated AWS systems, building and managing CI/CD 
-	pipeline solutions ( Jenkins ), python coding, shell scripting, 
-	Linux servers management, and automating existing product development workflows. 
-	In possession of exceptional attention to detail, 
-	the ability to think critically, residence, an 
-	insatiable thirst for knowledge, and an infectiously 
-	positive attitude. I am looking for roles and opportunities for Freelance Jobs 
-	in DevOps Engineering and Cloud Engineering for further development in my IT 
-	career.`,
+	description: `Results-driven and collaborative Cloud/DevOps Engineer with 4+ years of experience in designing and managing CI/CD pipelines using Jenkins and Azure DevOps, deploying and scaling containerized applications with Kubernetes, and building automated AWS solutions. Proficient in Python and Bash scripting, Linux server management, and cloud-native technologies, I specialize in optimizing workflows, enhancing system performance, and driving innovation in development and operations.
+
+	With a strong attention to detail, critical thinking, resilience, and a passion for continuous learning, I am seeking freelance opportunities in DevOps and Cloud Engineering to apply my expertise and further advance my career through dynamic and challenging projects.`,
 	btnText: " Download CV",
 };
 
@@ -68,6 +60,7 @@ const Slider = () => {
 									data-aos-delay="200"
 								>
 									<TextLoop>
+										<p className="loop-text lead"> Kuberntes Administrator</p>
 										<p className="loop-text lead">
 											AWS Certified Developer Associate
 										</p>

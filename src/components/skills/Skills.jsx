@@ -10,16 +10,16 @@ const skillContent = [
 		endCount: "92",
 	},
 	{
+		name: "Kubernetes",
+		numberPercent: "90",
+		startCount: "0",
+		endCount: "90",
+	},	
+	{
 		name: "Linux",
 		numberPercent: "85",
 		startCount: "0",
 		endCount: "85",
-	},
-	{
-		name: "Python",
-		numberPercent: "90",
-		startCount: "0",
-		endCount: "90",
 	},
 	{
 		name: "Terraform",
