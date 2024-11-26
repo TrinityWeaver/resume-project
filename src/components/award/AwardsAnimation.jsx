@@ -3,10 +3,10 @@ import React from "react";
 const AwardContnet = [
 	{
 		img: "cka",
-		awardName: "AWS Certified SysOps Administrator – Associate",
+		awardName: "CKA: Certified Kubernetes Administrator",
 		awardFor: "Nov 2024",
 		delayAnimation: "0",
-		link: "https://www.credly.com/badges/c166deb6-ec8d-458e-8d09-f84b9ca9f7cd/public_url"
+		link: "https://www.credly.com/badges/1a284942-7d65-4fcb-ad6d-8684236597b4/public_url"
 	},		
 	{
 		img: "aws-certified-sysops-administrator-associate",
