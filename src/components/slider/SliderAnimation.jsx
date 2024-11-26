@@ -60,7 +60,7 @@ const Slider = () => {
 									data-aos-delay="200"
 								>
 									<TextLoop>
-										<p className="loop-text lead"> Kuberntes Administrator</p>
+										<p className="loop-text lead"> Kubernetes Administrator</p>
 										<p className="loop-text lead">
 											AWS Certified Developer Associate
 										</p>

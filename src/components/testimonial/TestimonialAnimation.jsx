@@ -34,7 +34,7 @@ export default function SimpleSlider() {
 	const TestimonilContent = [
 		{
 			imageName: "tom",
-			desc: `  I’ve worked with many Cloud/Devops Engineers but Sebastian was one of the best.
+			desc: `  I've worked with many Cloud/Devops Engineers but Sebastian was one of the best.
       He consistently gave 100% of himself to our team, and was critical in ensuring the 
       completion of our projects by the deadline. 
       Sebastian was always reliable and professional, and at stressful times he was a positive 
@@ -51,7 +51,7 @@ export default function SimpleSlider() {
       I worked with Sebastian at ZAVA and he was a consummate professional at all times. 
       He explained the inner workings of the company perfectly and was instrumental in helping 
       me to find my feet.
-      Sebastian‘s work ethic was impeccable, and he was always the first person to offer help 
+      Sebastian's work ethic was impeccable, and he was always the first person to offer help 
       and support.
       Thanks, Sebastian! You made my time at ZAVA a pleasure.`,
 			reviewerName: "Arnold Sadrijaj",
