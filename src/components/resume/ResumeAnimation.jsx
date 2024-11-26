@@ -20,7 +20,7 @@ const resumeContent = [
 	{
 		jobPosition: `Cloud/DevOps Engineer`,
 		jobType: `ZAVA | Remote`,
-		jobDuration: `Jan 2022 - Present`,
+		jobDuration: `Jan 2022 - Dec 2023`,
 		timeDuraton: `Full Time`,
 		compnayName: "ZAVA",
 		jobDescription: `Building and implementing a robust, persistent, and auto-healing CI/CD Jenkins Pipeline in AWS Cloud in an automated manner using 
