@@ -56,9 +56,9 @@ const resumeContent = [
 
 const educatonContent = [
 	{
-		passingYear: "Nob 2024",
-		degreeTitle: "AWS Certified Developer/SysOps - Associate",
-		instituteName: "Amazon Web Services Training and Certification",
+		passingYear: "Nov 2024",
+		degreeTitle: "CKA: Certified Kubernetes Administrator",
+		instituteName: "The Linux Foundation",
 	},	
 	{
 		passingYear: "May 2022 / Dec 2022",

@@ -2,6 +2,13 @@ import React from "react";
 
 const AwardContnet = [
 	{
+		img: "cka",
+		awardName: "AWS Certified SysOps Administrator – Associate",
+		awardFor: "Nov 2024",
+		delayAnimation: "0",
+		link: "https://www.credly.com/badges/c166deb6-ec8d-458e-8d09-f84b9ca9f7cd/public_url"
+	},		
+	{
 		img: "aws-certified-sysops-administrator-associate",
 		awardName: "AWS Certified SysOps Administrator – Associate",
 		awardFor: "Dec 2022",
@@ -35,13 +42,6 @@ const AwardContnet = [
 		awardFor: "Sep 2020",
 		delayAnimation: "400",
 		link: "https://account.jamf.com/training-courses/certificate/hBxuq-Ak29mot6YTwFnPow"
-	},
-	{
-		img: "jamfpro",
-		awardName: "Jamf Certified Tech",
-		awardFor: "Jun 2020",
-		delayAnimation: "400",
-		link: "https://account.jamf.com/training-courses/certificate/iply076P4LGQW_0-UKA9_A"
 	},
 
 ];
