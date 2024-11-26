@@ -27,7 +27,7 @@ const About = () => {
 								</div>
 								{/* End img */}
 								<div className="info">
-									<p>Cloud Engineer</p>
+									<p>Cloud Engineer / Kubernetes Engineer</p>
 									<h3>Sebastian Marynicz</h3>
 								</div>
 								{/* End info */}
@@ -49,27 +49,13 @@ const About = () => {
 
 								<div className="about-text">
 									<p>
-										In my current role, I was exposed to many Programing
-										Languages, like Python, and React JS, bash scripting. I am
-										passionate about new technologies and Linux Systems, Cloud,
-										and AWS. I am always keen to learn new technologies and
-										skills. As proof of my knowledge, I recently obtained AWS
-										Developer and SysOps Administrator Associate Certifications, which involved a wide
-										range of skills related to AWS Cloud, to achieve
-										certification.
+										I am a passionate DevOps professional with expertise in Linux systems, cloud computing, and Kubernetes. My recent accomplishments include leading the migration of the ELK Stack to AWS EKS, creating a CI/CD pipeline for the ECK stack, and designing a serverless log ingestion solution using AWS Lambda, API Gateway, and Logstash, improving scalability and efficiency.
 									</p>
 									<p>
-										I have built fantastic automations and provided solutions
-										involving cloud, Jenkins, various programming languages etc.
-										I was making all processes a hand-free experience and
-										removing possibilities of human errors making these
-										solutions cost-effective. In my current role, I did enable
-										for one of the teams a CI/CD Pipeline by building Super
-										Available Jenkins Pipeline with persistent memory in AWS. In
-										this solution, I implemented a Jenkins Master as an
-										auto-healing and cost-effective part of your continuous
-										integration and deployment system. This is just one example
-										of my projects.
+										I have enhanced infrastructure security and automation by implementing Terraform pre-checks with TFSec and developing a Terraform module to automate AWS CloudWatch alarms with Microsoft Teams integration, improving monitoring and incident response.
+									</p>									
+									<p>
+										Previously, I built cost-effective solutions and automations, including a highly available Jenkins pipeline in AWS with persistent memory, streamlining CI/CD processes. Certified in AWS Developer, SysOps Administrator Associate, and Kubernetes (CKA), I am driven by a passion for learning and applying new technologies to deliver scalable and innovative solutions.
 									</p>
 								</div>
 								<div className="info-list">
@@ -86,7 +72,7 @@ const About = () => {
 												</li>
 												<li>
 													<label>Age: </label>
-													<span>37 years</span>
+													<span>39 years</span>
 												</li>
 												<li>
 													<label>Address: </label>
