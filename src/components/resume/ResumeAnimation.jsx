@@ -3,7 +3,7 @@ import Skills from "../skills/Skills";
 
 const resumeContent = [
 	{
-		jobPosition: `Cloud Engineer / Kubernetes Engineer /Systems & Network Administrator`,
+		jobPosition: `Cloud Engineer / Kubernetes Specialist /Systems & Network Administrator`,
 		jobType: `SmartDCC | Hybrid`,
 		jobDuration: `Dec 2023 - Present`,
 		timeDuraton: `Full Time`,
@@ -56,6 +56,11 @@ const resumeContent = [
 
 const educatonContent = [
 	{
+		passingYear: "Jul 2025",
+		degreeTitle: "CKS: Certified Kubernetes Security Specialist",
+		instituteName: "The Linux Foundation",
+	},		
+	{
 		passingYear: "Nov 2024",
 		degreeTitle: "CKA: Certified Kubernetes Administrator",
 		instituteName: "The Linux Foundation",
@@ -64,12 +69,7 @@ const educatonContent = [
 		passingYear: "May 2022 / Dec 2022",
 		degreeTitle: "AWS Certified Developer/SysOps - Associate",
 		instituteName: "Amazon Web Services Training and Certification",
-	},
-	{
-		passingYear: "December 2020",
-		degreeTitle: "PCEP - Certified Entry-Level Python Programmer",
-		instituteName: "OpenEDG Institute",
-	},
+	}
 ];
 
 const Resume = () => {
