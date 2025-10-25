@@ -27,7 +27,7 @@ const About = () => {
 								</div>
 								{/* End img */}
 								<div className="info">
-									<p>Cloud Engineer / Kubernetes Engineer</p>
+									<p>Cloud Engineer / Kubernetes Specialist</p>
 									<h3>Sebastian Marynicz</h3>
 								</div>
 								{/* End info */}
@@ -55,7 +55,7 @@ const About = () => {
 										I have enhanced infrastructure security and automation by implementing Terraform pre-checks with TFSec and developing a Terraform module to automate AWS CloudWatch alarms with Microsoft Teams integration, improving monitoring and incident response.
 									</p>									
 									<p>
-										Previously, I built cost-effective solutions and automations, including a highly available Jenkins pipeline in AWS with persistent memory, streamlining CI/CD processes. Certified in AWS Developer, SysOps Administrator Associate, and Kubernetes (CKA), I am driven by a passion for learning and applying new technologies to deliver scalable and innovative solutions.
+										Previously, I built cost-effective solutions and automations, including a highly available Jenkins pipeline in AWS with persistent memory, streamlining CI/CD processes. Certified in AWS Developer, SysOps Administrator Associate, and Kubernetes (CKA, CKS), I am driven by a passion for learning and applying new technologies to deliver scalable and innovative solutions. I thrive in dynamic environments where I can contribute to impactful projects and continuous improvement.
 									</p>
 								</div>
 								<div className="info-list">

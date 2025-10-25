@@ -2,6 +2,13 @@ import React from "react";
 
 const AwardContnet = [
 	{
+		img: "cks",
+		awardName: "CKS: Certified Kubernetes Security Specialist",
+		awardFor: "Jul 2025",
+		delayAnimation: "0",
+		link: "https://www.credly.com/badges/5fd45313-2e01-4db5-bc77-f9dcf6bfd752/public_url"
+	},			
+	{
 		img: "cka",
 		awardName: "CKA: Certified Kubernetes Administrator",
 		awardFor: "Nov 2024",
@@ -12,7 +19,7 @@ const AwardContnet = [
 		img: "aws-certified-sysops-administrator-associate",
 		awardName: "AWS Certified SysOps Administrator – Associate",
 		awardFor: "Dec 2022",
-		delayAnimation: "0",
+		delayAnimation: "100",
 		link: "https://www.credly.com/badges/c166deb6-ec8d-458e-8d09-f84b9ca9f7cd/public_url"
 	},	
 	{
